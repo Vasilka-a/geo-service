@@ -1,5 +1,7 @@
 package ru.netology.entity;
 
+import java.util.Objects;
+
 public class Location {
 
     private final String city;
@@ -32,4 +34,5 @@ public class Location {
     public int getBuiling() {
         return builing;
     }
+
 }
